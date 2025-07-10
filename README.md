@@ -11,25 +11,32 @@ This is a command-line interface (CLI) tool designed to streamline the setup pro
 
 To use this CLI tool, you need Node.js and npm (Node Package Manager) installed on your system.
 
-1.  **Clone the repository**:
+### Global Installation (Recommended for frequent use)
 
-    ```bash
-    git clone https://github.com/heyjunin/enveasy.git
-    cd enveasy
-    ```
+```bash
+npm install -g enveasy
+```
 
-2.  **Install dependencies**:
+After global installation, you can run the CLI from any directory:
 
-    ```bash
-    npm install
-    ```
+```bash
+enveasy
+```
+
+### Run with npx (No global installation required)
+
+If you prefer not to install the tool globally, you can run it directly using `npx`:
+
+```bash
+npx enveasy
+```
 
 ## Usage
 
-To start the database setup process, run the `index.js` script:
+Once installed (globally) or run via `npx`, simply execute the command:
 
 ```bash
-node index.js
+enveasy
 ```
 
 The CLI will then guide you through the setup process, asking you to choose between setting up Neon Postgres, Upstash Redis, or both. Follow the prompts to configure your database instances.

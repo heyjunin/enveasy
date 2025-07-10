@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const readline = require('readline-sync');
 const { execSync } = require('child_process');
 const fs = require('fs');
