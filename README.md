@@ -14,7 +14,7 @@ To use this CLI tool, you need Node.js and npm (Node Package Manager) installed 
 ### Global Installation (Recommended for frequent use)
 
 ```bash
-npm install -g enveasy
+npm install -g @heyjunin/enveasy
 ```
 
 After global installation, you can run the CLI from any directory:
@@ -28,7 +28,7 @@ enveasy
 If you prefer not to install the tool globally, you can run it directly using `npx`:
 
 ```bash
-npx enveasy
+npx @heyjunin/enveasy
 ```
 
 ## Usage

@@ -1,9 +1,9 @@
 {
-  "name": "setup-cli",
+  "name": "@heyjunin/enveasy",
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "enveasy": "./index.js"
+    "enveasy": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
